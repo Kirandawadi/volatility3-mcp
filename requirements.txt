@@ -1,0 +1,4 @@
+mcp>=1.6.0
+requests>=2.32.3
+volatility3>=2.11.0
+yara-python>=4.5.1
