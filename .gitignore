@@ -1,9 +1,5 @@
-# Project specific - ignore everything in memory_dump directory
+# Project specific
 memory_dump/*
-
-# But include these specific files
-!memory_dump/infected-windows.vmem
-!memory_dump/linux-sample.mem
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
