@@ -17,6 +17,8 @@ Memory forensics is a complex field that typically requires specialized knowledg
 - **Cross-Platform Support**: Works with both Windows and Linux memory dumps (macOS support coming soon)
 - **Malware Detection**: Scan memory with **YARA rules** to identify known malware signatures
 
+## Demo
+![Demo Video](./attachments/Volatility3-MCP.mov)
 
 ## Configuration
 
@@ -49,7 +51,7 @@ You can use this project in two ways:
         }
      ```
         ![Tools available in Claude Desktop](./attachments/Claude-Config.png)
-5. Start Claude Desktop and begin analyzing the memory dumps.
+5. Restart Claude Desktop and begin analyzing the memory dumps.
 
 ### Option 2: With Cursor (SSE Server)
 4. Start the SSE server:
@@ -62,6 +64,18 @@ You can use this project in two ways:
    - Add a new MCP server with the URL `http://127.0.0.1:8080/sse`
 ![Cursor Composer](./attachments/Cursor-Config.png)
 6. Use the Cursor Composer in agent mode and begin analyzing memory dumps.
+
+## Available Tools
+
+- **initialize_memory_file**: Set up a memory dump file for analysis
+- **detect_os**: Identify the operating system of the memory dump
+- **list_plugins**: Display all available Volatility3 plugins
+- **get_plugin_info**: Get detailed information about a specific plugin
+- **run_plugin**: Execute any Volatility3 plugin with custom arguments
+- **get_processes**: List all running processes in the memory dump
+- **get_network_connections**: View all network connections from the system
+- **list_process_open_handles**: Examine files and resources accessed by a process
+- **scan_with_yara**: Scan memory for malicious patterns using YARA rules
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
