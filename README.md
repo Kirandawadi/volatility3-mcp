@@ -4,6 +4,11 @@
 Volatility3 MCP Server is a powerful tool that connects MCP clients like Claude Desktop with Volatility3, the advanced memory forensics framework. This integration allows LLMs to analyze memory dumps, detect malware, and perform sophisticated memory forensics tasks through a simple, conversational interface.
 ![Architecture Diagram](./attachments/architecture-diagram.svg)
 
+## Demo
+[Demo Video](https://1drv.ms/v/c/b3eb1096e4f4a3a8/EfKIAsM9zUpGtXjJMDn0zywB-R3UnwvYD4yX71q1CinfRw?e=lke0Ox)
+
+You can also find a [detailed presentation](./attachments/project-presentation.pdf) on this tool here.
+
 ## What This Solves
 Memory forensics is a complex field that typically requires specialized knowledge and command-line expertise. This project bridges that gap by:
 - Allowing non-experts to perform memory forensics through natural language
@@ -17,11 +22,6 @@ Memory forensics is a complex field that typically requires specialized knowledg
 - **Network Analysis**: Examine network connections to detect command and control servers
 - **Cross-Platform Support**: Works with both Windows and Linux memory dumps (macOS support coming soon)
 - **Malware Detection**: Scan memory with **YARA rules** to identify known malware signatures
-
-## Demo
-[Demo Video](https://1drv.ms/v/c/b3eb1096e4f4a3a8/EfKIAsM9zUpGtXjJMDn0zywB-R3UnwvYD4yX71q1CinfRw?e=lke0Ox)
-
-You can also find a [detailed presentation](./attachments/project-presentation.pdf) on this tool here.
 
 ## Configuration
 
