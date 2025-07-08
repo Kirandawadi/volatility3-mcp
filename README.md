@@ -1,5 +1,7 @@
 # Volatility3 MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Kirandawadi/volatility3-mcp)](https://smithery.ai/server/@Kirandawadi/volatility3-mcp)
+
 ## Introduction
 Volatility3 MCP Server is a powerful tool that connects MCP clients like Claude Desktop with Volatility3, the advanced memory forensics framework. This integration allows LLMs to analyze memory dumps, detect malware, and perform sophisticated memory forensics tasks through a simple, conversational interface.
 ![Architecture Diagram](./attachments/architecture-diagram.svg)
@@ -24,6 +26,14 @@ Memory forensics is a complex field that typically requires specialized knowledg
 - **Malware Detection**: Scan memory with **YARA rules** to identify known malware signatures
 
 ## Configuration
+
+### Installing via Smithery
+
+To install Volatility3 MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Kirandawadi/volatility3-mcp):
+
+```bash
+npx -y @smithery/cli install @Kirandawadi/volatility3-mcp --client claude
+```
 
 1. Clone this repository:
 2. Create a virtual environment:
